@@ -1,0 +1,21 @@
+{
+"manifest_version": 3,
+"name": "Calculadora Limercoin",
+"version": "1.0",
+"description": "Calculadora de recompensas de mineração",
+"permissions": ["storage"],
+"background": {
+"service_worker": "background.js"
+},
+"action": {
+"default_popup": "popup.html",
+"icons": {
+"16": "chrome-extension://[ID DA EXTENSÃO]/imagens/icone16.png",
+"48": "chrome-extension://[ID DA EXTENSÃO]/imagens/icone48.png"
+}
+},
+"content_security_policy": {
+"script-src": "'self'",
+"object-src": "'none'"
+}
+}

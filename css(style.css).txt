@@ -1,0 +1,6 @@
+.c012817 img[src="imagens/icone16.png"] {
+  width: 16px !important;
+  height: 16px !important;
+  margin: 0 auto !important;
+  display: block !important;
+}
